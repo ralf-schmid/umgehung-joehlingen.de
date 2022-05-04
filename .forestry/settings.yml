@@ -8,6 +8,11 @@ sections:
   path: README.md
   label: README
   read_only: true
+- type: directory
+  path: content/de
+  label: Seiten
+  create: all
+  match: "**/*"
 - type: heading
   label: Blog Post
 - type: directory
