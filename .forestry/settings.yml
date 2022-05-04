@@ -5,6 +5,11 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: content/deutsch/planung
+  label: Planung
+  create: all
+  match: "**/*"
+- type: directory
   path: " content/deutsch "
   label: Seiten
   create: all
@@ -16,7 +21,7 @@ sections:
 - type: heading
   label: Blog Post
 - type: directory
-  path: content/blog
+  path: content/deutsch/blog
   label: Post
   create: documents
   match: "**/*"
@@ -35,7 +40,7 @@ sections:
   create: none
   match: "*"
 - type: directory
-  path: content
+  path: content/deutsch
   label: All Pages
   create: all
   match: "**/*"
