@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flyer on Bürgerinitiative Pro Jöhlingen e. V.</title>
+    <link>https://www.umgehung-joehlingen.de/tags/flyer/</link>
+    <description>Recent content in Flyer on Bürgerinitiative Pro Jöhlingen e. V.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Sun, 27 Jan 2019 05:00:00 +0000</lastBuildDate><atom:link href="https://www.umgehung-joehlingen.de/tags/flyer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Der neue Flyer ist da</title>
+      <link>https://www.umgehung-joehlingen.de/posts/flyer2/</link>
+      <pubDate>Sun, 27 Jan 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://www.umgehung-joehlingen.de/posts/flyer2/</guid>
+      <description>Im Moment verteilen gerade viele fleißige Helfer der Bürgerinitiative unseren neuen Flyer.</description>
+    </item>
+    
+    <item>
+      <title>Flyer und Broschüren</title>
+      <link>https://www.umgehung-joehlingen.de/posts/flyer_broschueren/</link>
+      <pubDate>Thu, 22 Feb 2018 05:00:00 +0000</pubDate>
+      
+      <guid>https://www.umgehung-joehlingen.de/posts/flyer_broschueren/</guid>
+      <description>Infomaterial in gedruckter Form Diese Woche sind unsere Flyer und Broschüren eingetroffen.</description>
+    </item>
+    
+  </channel>
+</rss>

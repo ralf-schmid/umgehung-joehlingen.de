@@ -1,0 +1,28 @@
+{{- $alt := .Get "alt" -}}
+{{- $res := resources.GetMatch (.Get "src") -}}
+{{- $width := .Get "width" -}}
+
+{{ $size := printf "%s%s" $width "x webp"}}
+ 
+{{ $cover := .Resources.GetMatch $res }}
+{{ $smallImage := $cover.Resize $size }}
+
+
+{{with $cover }}
+{{ $scaled := $cover.Resize "350x webp" }}
+<a href="{{$cover}}" target="_blank">
+<figure>  
+	<img    
+		src="{{ $smallImage.RelPermalink }}"    
+		alt="{{ $alt }}"    
+		width="{{ $smallImage.Width }}"    
+		height="{{ $smallImage.Height }}"/>  
+</figure>
+</a>
+{{ end }}
+
+
+
+
+
+

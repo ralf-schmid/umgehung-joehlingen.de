@@ -1,0 +1,30 @@
+{{ "<!-- recent post -->" | safeHTML }}
+<div class="widget">
+  <h5 class="widget-title">{{ i18n "featured_post" }}</h5>
+  {{ "<!-- post-item -->" | safeHTML }}
+  {{ range first 3 ( where site.RegularPages ".Params.featured" "=" true )}}
+  <article class="widget-card mt-4">
+    <div class="d-flex">
+     
+      {{ if .Params.image }}
+          	{{ $cover := .Resources.GetMatch .Params.image }}
+          	
+			{{with $cover }}
+				{{ $scaled := $cover.Resize "100x webp" }}
+				<a href="{{ $cover}}"><img class="rounded-circle" loading="lazy" src="{{ $scaled.Permalink }}" alt="{{ with $.Page.Params.title }}{{ . }}{{ end }}" style="height:70px;width:70px;object-fit:cover;"></a>
+			{{ end }}
+          {{ end}}
+      
+      
+      <div class="ml-3">
+        <h6 class="mb-1"><a class="post-title" href="{{.Permalink}}">{{ .Title }}</a></h6>
+        <div class="post-meta small">
+          {{ range .Params.Categories }}
+                <a href="{{ `categories/` | absLangURL }}{{ . | urlize | lower }}">{{ . | title }}</a>
+                {{ end }} <span class="mx-1">|</span> {{ .PublishDate.Format "2. January 2006" }}
+        </div>
+      </div>
+    </div>
+  </article>
+  {{ end }}
+</div>

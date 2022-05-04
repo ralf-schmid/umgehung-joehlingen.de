@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webseite on Bürgerinitiative Pro Jöhlingen e. V.</title>
+    <link>https://www.umgehung-joehlingen.de/categories/webseite/</link>
+    <description>Recent content in Webseite on Bürgerinitiative Pro Jöhlingen e. V.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Fri, 27 Dec 2019 05:00:00 +0000</lastBuildDate><atom:link href="https://www.umgehung-joehlingen.de/categories/webseite/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spendenmöglichkeit auf der Homepage integriert</title>
+      <link>https://www.umgehung-joehlingen.de/posts/spende/</link>
+      <pubDate>Fri, 27 Dec 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://www.umgehung-joehlingen.de/posts/spende/</guid>
+      <description>Zur Finanzierung erforderlicher Rechtsmittel im anstehenden Planfeststellungsverfahren benötigen wir Ihre Unterstützung.</description>
+    </item>
+    
+    <item>
+      <title>Archiv</title>
+      <link>https://www.umgehung-joehlingen.de/posts/archive/</link>
+      <pubDate>Thu, 07 Nov 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://www.umgehung-joehlingen.de/posts/archive/</guid>
+      <description>Hier finden Sie unsere Beiträge chronologisch sortiert</description>
+    </item>
+    
+    <item>
+      <title>Die Webseite ist online</title>
+      <link>https://www.umgehung-joehlingen.de/posts/website/</link>
+      <pubDate>Tue, 31 Oct 2017 05:00:00 +0000</pubDate>
+      
+      <guid>https://www.umgehung-joehlingen.de/posts/website/</guid>
+      <description>So langsam füllt sich die Webseite mit Inhalten.
+Allerdings muss noch einiges geschehen, bis die Seite für die Besucher präsentabel ist.</description>
+    </item>
+    
+  </channel>
+</rss>

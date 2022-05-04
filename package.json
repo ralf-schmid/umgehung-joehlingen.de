@@ -1,0 +1,27 @@
+{
+  "name": "umgehung-joehlingen",
+  "version": "1.0.0",
+  "description": "Homepage Bürgerinitiative Pro Jöhlingen e. V.",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'Alles für Live-Entwicklung';npm-run-all webpack --parallel webpack-watch hugo-server",
+    "deploy": "echo 'Veröffentlichen';npm-run-all webpack hugo-build upload",
+    "help": "echo 'Entwickeln mit >>npm run dev<<';echo 'Erzeugen mit >>npm run build<<';echo 'Veröffentlichen mit >>npm run deploy<<'",
+    "hugo-build": "echo 'Alles löschen und neu bauen';hugo --cleanDestinationDir",
+    "build": "echo 'webpack für Javascript und dann neu bauen';npm-run-all webpack hugo-build",
+    "hugo-server": "echo 'Live-Entwicklung';hugo server --disableFastRender",
+    "webpack": "echo 'webpack für Javascript';webpack",
+    "webpack-watch": "echo 'webpack für Javascript und Live-Entwicklung';webpack --watch",
+    "tunnel": "echo 'Für Online-Suche';npx localtunnel -p 1313",
+    "upload": "echo 'Passwort: DWud7G42D7e';rsync -avz --delete public/ ralfschm@ralf-schmid.de:umgehung-joehlingen.de/"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "lunr": "^2.3.9"
+  }
+}

@@ -1,0 +1,33 @@
+{{define "main"}}
+<!--
+<section class="section about-banner overflow-hidden" bgcolor="#e6fff0">
+  {{ with .Params.background_shape}}
+  <img class="background_shape" src="{{ . | absURL }}" alt="background shape">
+  {{ end }}
+
+  <div class="container">
+    <div class="row justify-content-center align-items-center text-center text-lg-left">
+      {{ with .Params.image }}
+      <div class="col-lg-4">
+        <img loading="lazy" class="img-fluid" src="{{ . | absURL }}" alt="">
+      </div>
+      {{ end }}
+ -->
+      <div class="col-lg-12">
+        <div class="block content">
+        {{ with .Params.title }}<h2>{{ . }}</h2>{{ end }}
+        
+        {{ with .Params.image }}
+        <img loading="lazy" class="img-fluid" src="{{ . | absURL }}" alt="" align="right" width="300px"> 
+        {{ end }}
+      
+                  	
+          {{ .Content | markdownify }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{{end}}

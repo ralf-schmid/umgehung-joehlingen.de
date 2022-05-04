@@ -1,0 +1,44 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-lg-5">
+        <h2 class="mb-4">{{ .Title | markdownify }}</h2>
+        <div class="content">{{ .Content }}</div>
+        <form method="POST" action="{{ site.Params.contact_form_action | safeURL}}" class="row">
+          <div class="col-md-6">
+            <input type="text" class="form-control mb-4" placeholder="Name" name="name" id="name">
+          </div>
+          <div class="col-md-6">
+            <input type="email" class="form-control mb-4" placeholder="Email" name="email" id="email">
+          </div>
+          <div class="col-12">
+            <input type="text" class="form-control mb-4" placeholder="Betreff" name="subject" id="subject">
+          </div>
+          <div class="col-12">
+            <textarea name="message" id="message" class="form-control mb-4" placeholder="Hier ist Platz für Deine Nachricht"
+              rows="5"></textarea>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary btn-block" type="submit">Abschicken</button>
+          </div>
+        </form>
+      </div>
+      {{ if .Params.Image }}
+      <div class="col-lg-6 text-md-right">
+        
+			{{ $cover := .Resources.GetMatch .Params.image }}
+			{{with $cover }}
+				{{ $scaled := $cover.Resize "300x webp" }}
+				<img loading="lazy" class="img-fluid" src="{{ $scaled.Permalink }}" alt="{{ with $.Page.Params.title }}{{ . }}{{ end }}" align="right">
+			{{ end }}
+ 
+        
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

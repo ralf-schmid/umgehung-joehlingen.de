@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Artikel on Bürgerinitiative Pro Jöhlingen e. V.</title>
+    <link>https://www.umgehung-joehlingen.de/tags/artikel/</link>
+    <description>Recent content in Artikel on Bürgerinitiative Pro Jöhlingen e. V.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Tue, 16 Jan 2018 05:00:00 +0000</lastBuildDate><atom:link href="https://www.umgehung-joehlingen.de/tags/artikel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ein Beitrag über die Umgehungsstraße in der BNN</title>
+      <link>https://www.umgehung-joehlingen.de/posts/bnn/</link>
+      <pubDate>Tue, 16 Jan 2018 05:00:00 +0000</pubDate>
+      
+      <guid>https://www.umgehung-joehlingen.de/posts/bnn/</guid>
+      <description>Die Badische Neuste Nachrichten (BNN) haben am 16. Januar einen Artikel über die geplante Umgehungsstraße um Jöhlingen veröffentlicht.</description>
+    </item>
+    
+    <item>
+      <title>NADR berichtet über unsere Bürgerinitiative</title>
+      <link>https://www.umgehung-joehlingen.de/posts/nadr/</link>
+      <pubDate>Tue, 16 Jan 2018 05:00:00 +0000</pubDate>
+      
+      <guid>https://www.umgehung-joehlingen.de/posts/nadr/</guid>
+      <description>NADR (Neues aus der Region) ist für viele eine wichtige Informationsquelle, was die Region bewegt.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,89 @@
+- id: search_placeholder
+  translation: Suchen ...
+
+- id: our_instagram
+  translation: Unser Instagram
+
+- id: name
+  translation: Dein Name
+
+- id: email
+  translation: Email Addresse
+
+- id: subject
+  translation: Betreff
+
+- id: message
+  translation: Deine Nachricht
+
+- id: send_message
+  translation: Abschicken
+
+- id: search_result_for
+  translation: Suchergebnisse nach
+
+- id: you_may_also_like
+  translation: Vielleicht interessiert Dich auch
+
+- id: most_recent_post
+  translation: Unsere letzten Beiträge
+
+- id: written_by
+  translation: Geschrieben von
+
+- id: read_more
+  translation: Weiterlesen
+  
+- id: read_article
+  translation: Beitrag lesen
+
+- id: showing_posts_from
+  translation: Zeige Beiträge von
+
+- id: home
+  translation: Home
+
+- id: search
+  translation: Suche
+
+- id: categories
+  translation: Kategorien
+
+- id: tags
+  translation: Schlagwörter
+
+- id: social
+  translation: Sozial
+
+- id: copyright-text
+  translation: Entwickelt von 
+
+- id: popular_categories
+  translation: Beliebte Kategorien
+
+- id: about_me
+  translation: Über uns
+
+- id: featured_post
+  translation: Empfohlene Beiträge
+
+- id: subscribe_newsletter
+  translation: Never Miss A News
+
+- id: subscribe
+  translation: Subscribe Now
+
+- id: requisition
+  translation: Requisition
+
+- id: time_period
+  translation: Zeiteinheit
+
+- id: visit_website
+  translation: Webseite besuchen
+
+- id: added
+  translation: Hinzugefügt
+
+- id: post_related_to
+  translation: Beiträge mit 

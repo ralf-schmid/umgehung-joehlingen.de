@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Baden.TV on Bürgerinitiative Pro Jöhlingen e. V.</title>
+    <link>https://www.umgehung-joehlingen.de/tags/baden.tv/</link>
+    <description>Recent content in Baden.TV on Bürgerinitiative Pro Jöhlingen e. V.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Thu, 21 Feb 2019 05:00:00 +0000</lastBuildDate><atom:link href="https://www.umgehung-joehlingen.de/tags/baden.tv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ein neuer Bericht über Jöhlingen bei Baden.TV</title>
+      <link>https://www.umgehung-joehlingen.de/posts/badentv2/</link>
+      <pubDate>Thu, 21 Feb 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://www.umgehung-joehlingen.de/posts/badentv2/</guid>
+      <description>Jöhlinger wehren sich gegen Umgehungsstraße Heute, am 21. Februar 2019, hatten wir Besuch von Baden.</description>
+    </item>
+    
+    <item>
+      <title>Interview im Baden.TV über die Ortsumgehung Jöhlingen</title>
+      <link>https://www.umgehung-joehlingen.de/posts/badentv/</link>
+      <pubDate>Thu, 17 May 2018 05:00:00 +0000</pubDate>
+      
+      <guid>https://www.umgehung-joehlingen.de/posts/badentv/</guid>
+      <description>Link zum Bericht von Baden.TV Hier gelangen Sie zum Video: (https://baden-tv.</description>
+    </item>
+    
+  </channel>
+</rss>

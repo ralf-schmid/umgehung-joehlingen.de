@@ -1,0 +1,35 @@
+{{define "main"}}
+<!--
+<section class="section about-banner overflow-hidden" bgcolor="#e6fff0">
+  {{ with .Params.background_shape}}
+  <img class="background_shape" src="{{ . | absURL }}" alt="background shape">
+  {{ end }}
+
+  <div class="container">
+    <div class="row justify-content-center align-items-center text-center text-lg-left">
+      {{ with .Params.image }}
+      <div class="col-lg-4">
+        <img loading="lazy" class="img-fluid" src="{{ . | absURL }}" alt="">
+      </div>
+      {{ end }}
+ -->
+      <div class="col-lg-12">
+        <div class="block content">
+        {{ with .Params.title }}<h2>{{ . }}</h2>{{ end }}
+                
+        {{ $cover := .Resources.GetMatch .Params.image }}
+{{with $cover }}
+{{ $scaled := $cover.Resize "300x webp" }}
+<img loading="lazy" class="img-fluid" src="{{ $scaled.Permalink }}" alt="{{ with $.Page.Params.title }}{{ . }}{{ end }}" align="right">
+{{ end }}
+      
+                  	
+          {{ .Content | markdownify }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{{end}}

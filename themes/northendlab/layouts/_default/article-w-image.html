@@ -1,0 +1,26 @@
+<article class="article-overlapped-list row align-items-center mb-5">
+  {{ if .Params.image }}
+  <div class="col-md-6">
+  	{{ if .Params.image }}          
+            {{ $url := .Permalink }}
+            {{ $cover := .Resources.GetMatch .Params.image }}<a href="article-w-image.html">article-w-image.html</a>
+{{with $cover }}
+{{ $scaled := $cover.Resize "350x webp" }}
+<a class="post-title" href="{{ $url }}"><img loading="lazy" class="w-100" src="{{ $scaled.Permalink }}" alt="{{ with $.Page.Params.title }}{{ . }}{{ end }}" width="{{$scaled.Width}}" height="{{$scaled.Height}}"></a>
+{{ end }}
+            {{ end }}
+  </div>
+  {{ end }}
+  <div class="col-md-6">
+    <div class="card-block">
+      <h2 class="h4"><a class="post-title" href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+      <p>{{.Summary | truncate 100}}</p>
+      <div class="mt-3 post-meta">
+        <!--><a href="{{ `author/` | absLangURL }}{{ .Params.Author | urlize | lower }}">{{ .Params.Author | title }}</a> <span class="mx-1">|</span><-->
+        {{ .PublishDate.Format "2. January 2006" }} <span class="mx-1">|</span> {{ range .Params.Categories }}
+        <a href="{{ `categories/` | absLangURL }}{{ . | urlize | lower }}">{{ . | title }}</a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</article>

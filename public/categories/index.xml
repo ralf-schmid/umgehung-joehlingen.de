@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Bürgerinitiative Pro Jöhlingen e. V.</title>
+    <link>https://www.umgehung-joehlingen.de/categories/</link>
+    <description>Recent content in Categories on Bürgerinitiative Pro Jöhlingen e. V.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Mon, 02 May 2022 05:00:00 +0000</lastBuildDate><atom:link href="https://www.umgehung-joehlingen.de/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gedanken</title>
+      <link>https://www.umgehung-joehlingen.de/categories/gedanken/</link>
+      <pubDate>Mon, 02 May 2022 05:00:00 +0000</pubDate>
+      
+      <guid>https://www.umgehung-joehlingen.de/categories/gedanken/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Öffentlichkeitsarbeit</title>
+      <link>https://www.umgehung-joehlingen.de/categories/%C3%B6ffentlichkeitsarbeit/</link>
+      <pubDate>Sat, 23 Apr 2022 05:00:00 +0000</pubDate>
+      
+      <guid>https://www.umgehung-joehlingen.de/categories/%C3%B6ffentlichkeitsarbeit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bilder</title>
+      <link>https://www.umgehung-joehlingen.de/categories/bilder/</link>
+      <pubDate>Fri, 20 Aug 2021 05:00:00 +0000</pubDate>
+      
+      <guid>https://www.umgehung-joehlingen.de/categories/bilder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Webseite</title>
+      <link>https://www.umgehung-joehlingen.de/categories/webseite/</link>
+      <pubDate>Fri, 27 Dec 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://www.umgehung-joehlingen.de/categories/webseite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Petition</title>
+      <link>https://www.umgehung-joehlingen.de/categories/petition/</link>
+      <pubDate>Thu, 07 Nov 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://www.umgehung-joehlingen.de/categories/petition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Verein</title>
+      <link>https://www.umgehung-joehlingen.de/categories/verein/</link>
+      <pubDate>Thu, 07 Nov 2019 05:00:00 +0000</pubDate>
+      
+      <guid>https://www.umgehung-joehlingen.de/categories/verein/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aktion</title>
+      <link>https://www.umgehung-joehlingen.de/categories/aktion/</link>
+      <pubDate>Thu, 17 May 2018 05:00:00 +0000</pubDate>
+      
+      <guid>https://www.umgehung-joehlingen.de/categories/aktion/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

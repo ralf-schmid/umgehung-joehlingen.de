@@ -1,0 +1,409 @@
+############################ Default configuration #########################
+baseURL = "https://www.umgehung-joehlingen.de/"
+# site title 
+title = "Bürgerinitiative Pro Jöhlingen e. V."
+# theme
+theme = "northendlab"
+# post pagination
+paginate = "5"
+# post excerpt
+summaryLength = "10"
+# disqus short name
+# disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
+# google analytics
+googleAnalytics = "" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
+
+# disable language
+defaultContentLanguage = 'de'
+
+disableLanguages = ["fr","en"] # desable language from here
+
+[outputs]
+home = ["HTML", "AMP", "RSS", "JSON"]
+[markup.goldmark.renderer]
+unsafe= true
+
+[[module.mounts]]
+  source = 'assets'
+  target = 'assets'
+
+
+######################### Default Parameters ###########################
+[params]
+# logo
+logo = "images/logo-klein.jpg"
+# favicon
+favicon = "images/favicon.png"
+# meta data
+author = "Ralf Schmid"
+description = "Eine sinnvolle B 293 Lösung für Mensch und Natur"
+# homepage main section
+mainSections = ["posts"]
+# contact form action
+contact_form_action = "https://airform.io/info@umgehung-joehlingen.de" # contact form works with : https://formspree.io
+# copyright
+copyright = "Bürgerinitiative Pro Jöhlingen.de"
+
+# search *** true or false (if Search is disable Menu will align in Right) ***
+search = true
+header_search_layout = "expanded" # "expanded" or "popupable"
+# Menu align *** "left", "right" or "center" (if Search is disable Menu will align in Right) ***
+menu_align = "center"
+# Blog-details page sidebar
+sidebar = "right" # Sidebar value ("left", "right" or false)
+
+# google tag manager, see https://developers.google.com/tag-manager/
+google_tag_manager = "" # example: G-XXXXXXXXXX
+
+
+######################## Site Variables #########################
+[params.variables]
+# Color Variables
+primary_color = "#07651b"
+secondary_color = "#94c207"
+text_color = "#666666"
+text_color_dark = "#222222"
+body_color = "#fff"
+border_color = "#ACB9C4"
+black = "#000"
+white = "#fff"
+light = "#F8F8F8"
+
+# font variable
+# Give your font name from google font. add font weight using ":wght@" and separate by ";"
+# example: "Work Sans:wght@400;500;600"
+primary_font = "PT Sans:wght@400;700"
+secondary_font = ""
+icon_font = "Font Awesome 5 Free"
+font_size = "16px" # default is 16px
+font_scale = "1.25" # default is "majorThird": 1.25
+
+
+######################## sidebar widgets #########################
+[params.widgets]
+sidebar = ["about-me", "categories", "featured-post", "tags", "social", "subscription"]
+# available widget : search,about-me,authors,categories,tags,recent-post,social,promotion,subscription
+
+# preloader
+[params.preloader]
+enable = false
+preloader = "" # use png, jpg, svg or gif format
+
+# Subscription
+[params.subscription]
+enable = false
+# mailchimp subsciption
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+title = "Subscribe for our monthly newsletter."
+input_placeholder = "Enter your email"
+
+# cookies
+[params.cookies]
+enable = false
+expire_days = 2
+
+########################## Plugings ######################################
+# css plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.min.css"
+
+# js plugins
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+[[params.plugins.js]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"
+attributes = "crossorigin='anonymous' defer='defer' data-search-pseudo-elements"
+
+
+############################## Social Site ##########################
+[[params.social]]
+icon = "fab fa-facebook" # Fontawesome icon pack https://fontawesome.com/icons
+link = "https://www.facebook.com/umgehung.joehlingen"
+[[params.social]]
+icon = "fab fa-youtube" # Fontawesome icon pack https://fontawesome.com/icons
+link = "https://www.youtube.com/channel/UCWXX6PBnXC4HnDHy7OV0qkQ"
+
+################################### English language #####################################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+
+####################### Banner #######################################
+[Languages.en.banner]
+bg_image = "images/banner-shape.png"
+title = "Hi, I'm Cameron William <br> My Blogsite is About <br> <strong>Website & Development</strong>"
+image = "images/banner-image.png"
+
+[Languages.fr.banner]
+bg_image = "images/banner-shape.png"
+title = "Salut je suis Cameron William <br> Mon blog est sur <br> <strong>Site Web et Développement</strong>"
+image = "images/banner-image.png"
+
+[Languages.de.banner]
+bg_image = "images/banner-shape.png"
+title = "Herzlich willkommen <br/>auf der Homepage der <br/><strong>Bürgerinitiative Pro Jöhlingen e. V. </strong><br/>Eine sinnvolle B 293 Lösung für Mensch und Natur"
+image = "images/logo.gif"
+
+######################## About Me Widget ###############################
+[Languages.en.about_me]
+title = "Hi, I'm George A."
+bio = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel in in donec iaculis tempus odio nunc laoreet Libero ullamcorper."
+
+[Languages.de.about_me]
+title = "Bürgerinitiative Pro Jöhlingen"
+bio = "Eine sinnvolle B 293 Lösung für Mensch und Natur."
+
+[Languages.fr.about_me]
+title = "Salut je suis George A."
+bio = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel in in donec iaculis tempus odio nunc laoreet Libero ullamcorper."
+
+[[params.social_profile]]
+icon = "fab fa-facebook" # Fontawesome icon pack https://fontawesome.com/icons
+link = "https://www.facebook.com/umgehung.joehlingen"
+[[params.social_profile]]
+icon = "fab fa-youtube" # Fontawesome icon pack https://fontawesome.com/icons
+link = "https://www.youtube.com/channel/UCWXX6PBnXC4HnDHy7OV0qkQ"
+
+
+######################## call to action ###############################
+[params.cta]
+enable = true
+image = "images/hugo-muscot.svg"
+title = "Get the best hugo templates"
+description = "Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
+
+[params.cta.button]
+enable = true
+label = "Visit Here"
+link = "https://gethugothemes.com/shop/"
+
+############################# deutsch - Main Menu ########################
+[Languages.de]
+languageName = "De"
+languageCode = "de-de"
+contentDir = "content/deutsch"
+weight = 3
+
+
+[[Languages.de.menu.main]]
+weight = 1
+url = "/"
+extAdress = false
+name = "Home"
+
+[[Languages.de.menu.main]]
+weight = 2
+
+url = "#"
+name = "Wir über uns"
+hasChildren = true
+
+	[[Languages.de.menu.main]]
+	parent = "Wir über uns"
+  	weight = 1
+  	
+  	url = "about/ziele"
+  	name = "Ziele"
+  	
+  	[[Languages.de.menu.main]]
+	parent = "Wir über uns"
+  	weight = 2
+  	
+  	url = "about/vorstand"
+  	name = "Vorstand"
+  	
+  	[[Languages.de.menu.main]]
+	parent = "Wir über uns"
+  	weight = 3
+  	
+  	url = "about/satzung"
+  	name = "Satzung"
+  	
+  	[[Languages.de.menu.main]]
+	parent = "Wir über uns"
+  	weight = 4
+  	
+  	url = "about/videos"
+  	name = "Videos"
+    
+[[Languages.de.menu.main]]
+weight = 3
+
+url = "#"
+name = "Aktuelle Planung"
+hasChildren = true
+
+	[[Languages.de.menu.main]]
+	parent = "Aktuelle Planung"
+  	weight = 1
+  	
+  	url = "planung/bvwp"
+  	name = "BVWP 2030"   
+  	
+  	[[Languages.de.menu.main]]
+	parent = "Aktuelle Planung"
+  	weight = 2
+  	
+  	url = "planung/attental"
+  	name = "Das Attental"
+  	
+  	[[Languages.de.menu.main]]
+	parent = "Aktuelle Planung"
+  	weight = 3
+  	
+  	url = "planung/historie"
+  	name = "Historie"    
+  	
+  	[[Languages.de.menu.main]]
+	parent = "Aktuelle Planung"
+  	weight = 4
+  	
+  	url = "planung/flyer1"
+  	name = "Flyer 1" 
+  	
+  	[[Languages.de.menu.main]]
+	parent = "Aktuelle Planung"
+  	weight = 5
+  	
+  	url = "planung/flyer2"
+  	name = "Flyer 2"   
+  	
+  	[[Languages.de.menu.main]]
+	parent = "Aktuelle Planung"
+  	weight = 6
+  	
+  	url = "planung/broschuere"
+  	name = "Broschüre"   
+  	
+  	[[Languages.de.menu.main]]
+	parent = "Aktuelle Planung"
+  	weight = 7
+  	
+  	url = "planung/flaeche"
+  	name = "Flächenversiegelung"  
+  	 
+  	[[Languages.de.menu.main]]
+	parent = "Aktuelle Planung"
+  	weight = 8
+  	
+  	url = "planung/laerm"
+  	name = "Lärmschutz"  
+  	
+  	[[Languages.de.menu.main]]
+	parent = "Aktuelle Planung"
+  	weight = 9
+  	
+  	url = "planung/attental-problem"
+  	name = "Attental Problem?"  
+  	
+  	[[Languages.de.menu.main]]
+	parent = "Aktuelle Planung"
+  	weight = 10
+  	
+  	url = "planung/verkehr"
+  	name = "Verkehr"  
+  	
+  	[[Languages.de.menu.main]]
+	parent = "Aktuelle Planung"
+  	weight = 11
+  	
+  	url = "planung/kritik-bvwp"
+  	name = "Kritik BVWP"  
+  	
+  	[[Languages.de.menu.main]]
+	parent = "Aktuelle Planung"
+  	weight = 12
+  	
+  	url = "planung/lebensqualitaet"
+  	name = "Lebensqualität"  
+  	
+  	[[Languages.de.menu.main]]
+	parent = "Aktuelle Planung"
+  	weight = 13
+  	
+  	url = "planung/tourismus"
+  	name = "Tourismus"  
+  	
+  	[[Languages.de.menu.main]]
+	parent = "Aktuelle Planung"
+  	weight = 14
+  	
+  	url = "planung/naturschutz"
+  	name = "Naturschutz"  
+  	
+  	[[Languages.de.menu.main]]
+	parent = "Aktuelle Planung"
+  	weight = 15
+  	
+  	url = "planung/zukunft"
+  	name = "Zukunftsorientiert"  
+  	
+    
+[[Languages.de.menu.main]]
+weight = 4
+
+url = "kontakt"
+name = "Kontakt"
+  
+[[Languages.de.menu.main]]
+weight = 5
+
+url = "mitglied"
+name = "Mitglied werden"
+
+[[Languages.de.menu.main]]
+weight = 6
+url = "https://umgehungjoehlingen.myspreadshop.de/"
+
+name = "Webshop"
+
+[[Languages.de.menu.main]]
+weight = 7
+
+url = "spende"
+name = "Spende"
+
+
+############################# Footer Menu ########################
+[[Languages.de.menu.footer]]
+weight = 1
+
+url = "impressum/"
+name = "Impressum"
+
+[[Languages.de.menu.footer]]
+weight = 2
+
+url = "datenschutz/"
+name = "Datenschutz"
+
+[[Languages.de.menu.footer]]
+weight = 3
+
+url = "/posts/archive"
+name = "Archiv"
+
+[[Languages.de.menu.footer]]
+weight = 4
+
+url = "spende"
+name = "Spende"
+
+
