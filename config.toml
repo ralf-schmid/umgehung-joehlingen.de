@@ -42,7 +42,7 @@ mainSections = ["posts"]
 # contact form action
 contact_form_action = "https://airform.io/info@umgehung-joehlingen.de" # contact form works with : https://formspree.io
 # copyright
-copyright = "Bürgerinitiative Pro Jöhlingen.de"
+copyright = "Bürgerinitiative Pro Jöhlingen e. V."
 
 # search *** true or false (if Search is disable Menu will align in Right) ***
 search = true
